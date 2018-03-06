@@ -1,7 +1,6 @@
 # Ubuntu 12.04 container with en_AU locale support and upgraded udev.
 
 FROM ubuntu-debootstrap:12.04
-MAINTAINER Chinthaka Godawita <chin.godawita@me.com>
 
 # Set locale to be en_AU.
 RUN locale-gen en_AU en_AU.UTF-8
