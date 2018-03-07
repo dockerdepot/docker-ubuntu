@@ -16,12 +16,9 @@ Its intended use is for Docker container projects that are built on CI tools (su
     - `dockerdepot/ubuntu:latest`
 * Ubuntu 14.04
     - `dockerdepot/ubuntu:14.04`
-* Ubuntu 12.04
-    - `dockerdepot/ubuntu:12.04`
 
 ## Building
 ```bash
 docker build -t dockerdepot/ubuntu:16.04 16.04/
 docker build -t dockerdepot/ubuntu:14.04 14.04/
-docker build -t dockerdepot/ubuntu:12.04 12.04/
 ```
